@@ -12,7 +12,7 @@ one-to-one and onto function (bijection) $f: V_1 \rightarrow V_2$ such that $(u,
 
 We can prove that they don't have to be connected by proving the statement they must be completely connected false. Which would lead us to know that they don't have to be completely connected to be isomorphic. We can prove that then a counter example. 
 
-Take graph A where $V_A = [A,B,C]$ and $E_A = [(A,B),(B,C)]$ and graph B where $V_B = [X,Y,Z]$ and $E_B = [(X,Y),(Y,Z)]$ Where both graphs are undirected graphs. Neither are completely connected. And we know they are isomorphic because we have a bijection function $f: V_A \rightarrow V_B$ for all edges in A to all edges in B. Like so, $ f = \{((A,B) \mapsto (X,Y)), ((B,C) \mapsto (Y,Z)) \}$.
+Take graph A where $V_A = [A,B,C]$ and $E_A = [(A,B),(B,C)]$ and graph B where $V_B = [X,Y,Z]$ and $E_B = [(X,Y),(Y,Z)]$ Where both graphs are undirected graphs. Neither are completely connected. And we know they are isomorphic because we have a bijection function $f: V_A \rightarrow V_B$ for all edges in A to all edges in B. Like so, $f = \{((A,B) \mapsto (X,Y)), ((B,C) \mapsto (Y,Z)) \}$.
 
 Therefore, since we've proven that the statement that if two graphs are isomorphic they *have* to be fully connected, the inverse being, if two graphs are isomorphic they do *not* have to be completely connected must be true.
 
